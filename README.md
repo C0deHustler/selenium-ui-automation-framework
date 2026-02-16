@@ -1,7 +1,9 @@
 # Selenium UI Automation Framework
 
-This project is a Maven-based Selenium Automation Framework developed using Java, TestNG, and Page Object Model (POM) design pattern.  
-It is designed to automate functional testing of web applications with a scalable and maintainable framework structure.
+This project is a Maven-based Hybrid Test Automation Framework developed using Java, Selenium WebDriver, Cucumber BDD, and TestNG, following the Page Object Model (POM) design pattern.  
+It is designed to automate functional testing of web applications using Behavior Driven Development (BDD) approach with Gherkin feature files, ensuring better readability, reusability, and maintainability.
+
+The framework supports detailed reporting through Allure Reports and Extent Reports, and follows a scalable modular architecture for efficient test execution and easy maintenance.
 
 ---
 
