@@ -10,8 +10,10 @@ It is designed to automate functional testing of web applications with a scalabl
 - Java
 - Selenium WebDriver
 - TestNG
+- Cucumber BDD
 - Maven
 - Page Object Model (POM)
+- Allure Reporting
 - Eclipse IDE
 - Git & GitHub
 
@@ -19,20 +21,23 @@ It is designed to automate functional testing of web applications with a scalabl
 
 ## 📂 Project Structure
 
+```bash
 selenium-ui-automation-framework
-│── src/main/java
-│   ├── pages
-│   ├── utilities
-│   ├── base
-│
-│── src/test/java
-│   ├── tests
-│
-│── src/test/resources
-│   ├── config.properties
-│   ├── testng.xml
-│
-│── pom.xml
+│── saucedemo-automation
+│   ├── src/main/java
+│   │   ├── pages
+│   │   ├── utilities
+│   │   ├── base
+│   │
+│   ├── src/test/java
+│   │   ├── tests
+│   │
+│   ├── src/test/resources
+│   │   ├── config.properties
+│   │   ├── testng.xml
+│   │
+│   └── pom.xml
+```
 
 ---
 
@@ -51,12 +56,16 @@ This framework follows:
 ## ⚙️ Features Implemented
 
 ✔ Page Object Model (POM)  
+✔ Cucumber BDD Framework  
+✔ Gherkin Feature Files  
 ✔ TestNG Test Execution  
 ✔ Maven Build Management  
+✔ Allure Reporting Integration  
+✔ Extent Reports Integration  
 ✔ External Configuration Support  
 ✔ Reusable Utilities  
 ✔ Easy Test Maintenance  
-✔ Scalable Framework Design  
+✔ Scalable Framework Design   
 
 ---
 
